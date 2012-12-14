@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JavaScript namespacing demo</title>
+    <script type="text/javascript" src="./Scripts/Helpers/String.js"></script>
+    <script type="text/javascript" src="./Scripts/Helpers/Alert.js"></script>
+    <script type="text/javascript" src="./Scripts/Controllers/Home.js"></script>    
+</head>
+<body>
+    <p>
+        Current controller: home        
+    </p>
+
+    <p>
+        Current action: overview
+    </p>
+
+   <script type="text/javascript">
+       controllers.home.overview();
+   </script>
+</body>
+</html>
