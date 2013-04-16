@@ -5,7 +5,7 @@ Unfortunately, the current JavaScript version does not include namespaces (altho
 ## Implementation
 The basic gist is that you can use the dot notation (used when accessing properties) to mimic how namespaces are usually defined. Basically, what we will be doing is creating global objects with sub-namespaces being defined as properties.
 
-It is best to show this with an example. Let us suppose that we want to create two functions, `upperCase` and `lowerCase`, in the namespace **helpers.strings**. We start with creating a variable which names corresponds to the first parts of the namespace (**helpers**):
+It is best to show this with an example. Let us suppose that we want to create two functions, `upperCase` and `lowerCase`, in the namespace **helpers.strings**. We start with creating a variable which names corresponds to the first parts of the namespace: **helpers**:
     
     // Create the root object of the namespace
     var helpers = helpers || {};
